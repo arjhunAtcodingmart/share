@@ -1,0 +1,163 @@
+/* Style sheet for all the components */
+
+body {
+  background-color: rgb(209, 240, 250);
+}
+
+/* Admin post section styling*/
+.input-group-addon{
+  float: left;
+  padding: 6px;
+  font-weight: 800;
+  align-content: center;
+  margin-left: 10%;
+}
+.input-group{
+  overflow: hidden;
+}
+.file-btn{
+  float: left;
+  margin-left: 1%;
+}
+.post-btn{
+  float:left;
+  margin-left: 5%;
+  width: 10%;
+}
+
+.textBox{
+  width: 30%;
+  float: left;
+}
+.post{
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(58, 152, 168);
+}
+
+/* posting backgroung card styling */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 45%;
+  padding :2px;
+  margin-top: 4px;
+  background-color: rgb(184, 200, 216);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* ------message container styling-------- */
+.container {
+  padding: 4px 16px;
+}
+.cont{
+  overflow: auto;
+  padding-bottom: 10%;
+  display: block;
+}
+
+/* mobile view */
+@media only screen and (max-width: 600px) {
+  .cont{
+    padding-bottom: 40%;
+  }
+  .postBox{
+    width: 63%;
+  }
+  .post-btn{
+    float:left;
+    margin-left: 45%;
+  }
+  .file-btn{
+    width: 60%;
+    margin-left: 32%;
+  }
+  .textBox{
+    width: 59%;
+    float: left;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .post-btn{
+   margin-left: 50%;
+   width: 25%;
+  }
+}
+
+div{
+  border: 0px;
+}
+/* --------navbar styling------------- */
+.Nav{
+  text-align:left;
+  font-size: 30px;
+  padding: 10px;
+  color:rgb(233, 227, 227);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(58, 152, 168);
+}
+
+/*--------Image styling----------  */
+.image{
+  margin-top: 3%;
+}
+
+/* -----comment-button & comment-text------------- */
+.comment-btn{
+  width:12%;
+  margin-left: 5%;
+}
+.comment-btn img{
+  width:4%;
+}
+.comments{
+  margin-left: 5%;
+  margin-top: 7px;
+  overflow: hidden;
+}
+
+.comment-text{
+  font-weight: 500;
+  border: 0;
+  outline: 0;  border: 0;
+  outline: 0;
+  /* background-color:rgb(175, 190, 206); */
+  background-color: rgb(224, 226, 233);
+}
+
+.btn-primary:hover {
+  background-color:#245d99;
+}
+/* -----comment icon styling------ */
+.down-arrow{
+  pointer-events: 'none';
+}
+.postBox{
+  /* height: 25px !important; */
+  padding-top: 10px !important;
+  width: 65% !important;
+}
+.postBox{
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: 0;
+    background-color: rgb(184, 200, 216);
+}
+/*--------client admin btn styling------  */
+.switch-btn{
+  border:0;
+  background-color: rgb(52, 168, 189);
+  margin-top: 3px;
+  border-radius: 3px;
+  color: white;
+}
+
+.thumbs-btn:active{
+  color:rgb(45, 101, 110);
+}
